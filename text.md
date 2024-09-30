@@ -2,7 +2,9 @@ class: center, middle
 
 # How to win friends and influcence devs
 ## 💝 By writing delightful PRs
-## &nbsp;
+
+<br />
+
 ### Loris Bognanni
 #### October 2024
 
@@ -10,6 +12,40 @@ class: center, middle
 <a href="https://github.com/LBognanni/WritingDelightfulPRs/blob/main/text.md"><img src="markdown.png" style="width:2em;" title="Read this presentation as markdown" /></a>
 <a href="https://github.com/LBognanni/WritingDelightfulPRs"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:2em;" title="Github repo" /></a> 
 ]
+
+---
+
+layout: true
+
+.title[
+    Writing delightful PRs]
+
+---
+
+## Why are Pull Requests a thing?
+
+- They didn't use to be before git!
+- They are a request for the Reviewer to `pull` your changes
+- Nowadays, they also do other things, like running automated tests
+- Most reviewers also don't pull your branch any longer, but inspect your changes online
+
+### Why do we PR?
+ - To run automated tests
+ - To create a beta artifact
+ - To have our code checked by a human before being deployed to clients
+     - Ultimately, to avoid bugs & incident
+ - They are also a useful artifact to investigate those bugs that do reach production
+
+---
+
+## Why bother?
+
+ - 💪 **Mastery, craft & purpose**
+    - You're not just a code producing machine
+ - ⚡ Help your team running more efficiently
+
+## Do you do all the things?
+ - No, not all the time. But I should!
 
 ---
 ## 1️⃣ Write small PRs
@@ -32,7 +68,7 @@ _If you take one thing away from this presentation, please let it be this one_ �
 ### How small is small enough?
 
 - Smaller than you think
-- One PR per Shortcut ticket
+- One PR per ticket
 - Does your ticket contain a checklist? Congrats, each item becomes a new ticket
 - `:it-depends-patrick:`
 
@@ -42,16 +78,25 @@ _If you take one thing away from this presentation, please let it be this one_ �
 
 
 ### Tops tips
+ - 🗺 **Plan Carefully** ⭐
+    
+    and break things up as you go
  - 🚩 **Use feature flags**
     - pr `#1`: add feature flags
     - pr `#2..n`: add various bits
     - pr `#n+1`: remove feature flag
  - 📚 **Stack PRs**
     - pr `#1` targets `main`
-    - pr `#2..n` targets `feature_branch`
+    - pr `#2..n` target `feature_branch_1..n-1`
     - You can review & merge all the subsequent PRs, and then finally merge the feature branch to main
     - ⚠ Careful with this, try not to have too many (>2) things open at once
- - 🗺 **Plan Carefully** ⭐
+
+---
+
+## 1️⃣ Write small PRs
+
+
+### Review tips
  
  - ⚔ **Got a big PR to review?** 
 
@@ -88,7 +133,8 @@ _If you take one thing away from this presentation, please let it be this one_ �
 <br />
 <br />
 
-`*` _Ultimately, advocating for and implementing a faster / better pipeline is part of your job_
+`*` _Ultimately, advocating for and building a faster / better pipeline is part of your job_
+
 ---
 ## 2️⃣ Make it easy  for the reviewer
 
@@ -118,7 +164,7 @@ Put yourself in the reviewer's shoes: what would make their day easier?
     - What are the **risks**? What are we doing to **mitigate** them?
     - **Anything important** the reviewer should know?
 
-- 🔖 Link to your Shortcut ticket
+- 🔖 Link to your issue tracker ticket
     - It gives the reviewer more context about what this is and where it sits in the overall epic/milestone/sprint
 
 ---
@@ -127,7 +173,7 @@ Put yourself in the reviewer's shoes: what would make their day easier?
 ### Top tips / 2
 
 - ♻ **Review your own PR**
-    - Find bugs and protect your ego
+    - Find bugs and protect your ego 🤭
     - Call out any important bits of logic
     - Preempt questions
     - Ask for feedback on specific lines
