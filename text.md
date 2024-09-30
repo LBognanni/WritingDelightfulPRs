@@ -24,7 +24,7 @@ layout: true
 
 ## Why are Pull Requests a thing?
 
-- They didn't use to be before git!
+- They didn't use to be before GitHub!
 - They are a request for the Reviewer to `pull` your changes
 - Nowadays, they also do other things, like running automated tests
 - Most reviewers also don't pull your branch any longer, but inspect your changes online
@@ -40,9 +40,9 @@ layout: true
 
 ## Why bother?
 
- - 💪 **Mastery, craft & purpose**
-    - You're not just a code producing machine
  - ⚡ Help your team running more efficiently
+ - 💪 Mastery, craft & purpose
+    - _You're not just a code producing machine_
 
 ## Do you do all the things?
  - No, not all the time. But I should!
@@ -180,3 +180,27 @@ Put yourself in the reviewer's shoes: what would make their day easier?
 
 - 👩‍💻 Assign yourself
     - It makes it easier to find _your_ PR!
+
+---
+
+## 3️⃣ Write Tests
+
+ - Duh
+ - Tests ensure that the code is doing what it's supposed to
+ - They'll catch problems before you ask for a review
+ - They'll help the reviewer understand how your code works
+ 
+---
+
+## 3️⃣ Write Tests
+
+### Top Tips
+
+ - Keep your test code as simple as possible!
+ - Name your tests right
+    - I like `When_{x}_It_{y}` naming
+    - pls no `Test_It_Works()`
+ - Consider using gitmoji to separate out test, changes, and refactoring commits:
+    - 🧪 add failing test
+    - ✅ pass test
+    - ♻️ refactor
