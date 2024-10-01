@@ -32,7 +32,7 @@ layout: true
 ### Why do we PR?
  - To run automated tests
  - To create a beta artifact
- - To have our code checked by a human before being deployed to clients
+ - **To have our code checked by a human** before being deployed to clients
      - Ultimately, to avoid bugs & incident
  - They are also a useful artifact to investigate those bugs that do reach production
 
@@ -71,6 +71,7 @@ _If you take one thing away from this presentation, please let it be this one_ �
 - One PR per ticket
 - Does your ticket contain a checklist? Congrats, each item becomes a new ticket
 - `:it-depends-patrick:`
+- If you really cant make it smaller, can it be reviewed commit by commit?
 
 ---
 
@@ -186,10 +187,20 @@ Put yourself in the reviewer's shoes: what would make their day easier?
 ## 3️⃣ Write Tests
 
  - Duh
+
+---
+
+## 3️⃣ Write (good) Tests
+
+ - Duh
  - Tests ensure that the code is doing what it's supposed to
  - They'll catch problems before you ask for a review
  - They'll help the reviewer understand how your code works
+
+ &nbsp;
  
+![](test.png)
+
 ---
 
 ## 3️⃣ Write Tests
