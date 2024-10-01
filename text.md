@@ -215,3 +215,13 @@ Put yourself in the reviewer's shoes: what would make their day easier?
     - 🧪 add failing test
     - ✅ pass test
     - ♻️ refactor
+
+---
+class: center, middle
+
+
+# 🙏 Thank you for listening!
+
+You made it to the end! 🎉
+
+#### What are _your_ top tips for writing delightful PRs?
