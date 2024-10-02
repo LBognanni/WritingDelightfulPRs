@@ -217,6 +217,18 @@ Put yourself in the reviewer's shoes: what would make their day easier?
     - ♻️ refactor
 
 ---
+
+## 😤 In Summary
+
+<br/><br/><br/>
+
+ - 🤏 Keep your PRs small
+
+ - 🤓 Add context
+
+ - 🧪 Write good tests
+
+---
 class: center, middle
 
 
