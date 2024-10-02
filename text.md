@@ -22,18 +22,16 @@ layout: true
 
 ---
 
-## Why are Pull Requests a thing?
+## Why do we Pull Request?
 
-- They didn't use to be before GitHub!
-- They are a request for the Reviewer to `pull` your changes
-- Nowadays, they also do other things, like running automated tests
-- Most reviewers also don't pull your branch any longer, but inspect your changes online
-
-### Why do we PR?
- - To run automated tests
- - To create a beta artifact
  - **To have our code checked by a human** before being deployed to clients
-     - Ultimately, to avoid bugs & incident
+
+ - To run automated tests
+
+ - To create a beta artifact
+
+ - Ultimately, to avoid bugs & incident
+
  - They are also a useful artifact to investigate those bugs that do reach production
 
 ---
@@ -41,11 +39,19 @@ layout: true
 ## Why bother?
 
  - ⚡ Help your team running more efficiently
+
+ - ❤️ Show your colleagues that you care
+ 
  - 💪 Mastery, craft & purpose
     - _You're not just a code producing machine_
 
+
+---
+
 ## Do you do all the things?
  - No, not all the time. But I should!
+
+![](human.gif)
 
 ---
 ## 1️⃣ Write small PRs
@@ -132,15 +138,19 @@ _If you take one thing away from this presentation, please let it be this one_ �
 <br />
 <br />
 <br />
-<br />
 
 `*` _Ultimately, advocating for and building a faster / better pipeline is part of your job_
 
 ---
 ## 2️⃣ Make it easy  for the reviewer
 
-Put yourself in the reviewer's shoes: what would make their day easier?
+- 🧠 Reviewing PRs is hard work
+- 🤯 Reading code is harder than writing it
+- ⌛ You don't want to wait hours or days for a review
 
+---
+
+## 2️⃣ Make it easy  for the reviewer
 
 - 🧠 Reviewing PRs is hard work
 - 🤯 Reading code is harder than writing it
